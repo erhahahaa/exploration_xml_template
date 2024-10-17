@@ -59,3 +59,14 @@ File name created based on activity template name, for example Empty Activity wi
     - `themes.xml`
     - `colors.xml`
 
+- Login Activity
+  This activity is similar to Basic Activity, but it has a login layout.
+  Generated files:
+    - `LoginActivity.kt`
+    - `activity_login.xml`
+    - `LoginViewModel.kt`
+    - `LoginViewModelFactory.kt`
+    - `LoginFormState.kt`
+    - `LoginResult.kt`
+    - `LoginDataSource.kt`
+    - `LoginRepository.kt`
