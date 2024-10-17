@@ -1,72 +1,96 @@
 # Android Kotlin XML Explorations
 
-This repository created to explore the Android Kotlin XML for my personal exploration.
+This repository was created to explore Android development using Kotlin and XML, primarily for
+personal exploration and learning.
 
-## Activity
+## Activity Templates Overview
 
-File name created based on activity template name, for example Empty Activity will create
-`EmptyActivity.kt` file and `activity_empty.xml` layout file.
+Each file is generated based on the activity template you choose in Android Studio. For instance,
+selecting the "Empty Activity" template will generate an `EmptyActivity.kt` file and a corresponding
+`activity_empty.xml` layout file.
 
-- Empty Activity
-  This most used activity in Android development. By default it create a class and layout file based
-  on the name you provided,on level where you create (New Activity) option.
-  Generated files:
-    - `EmptyActivity.kt`
-    - `activity_empty.xml`
+### 1. Empty Activity
 
-- Basic Activity
-  This activity is similar to Empty Activity, but it has a menu bar and a floating action button.
-  Generated files:
-    - `BasicActivity.kt`
-    - `activity_basic.xml`
-    - `FirstFragment.kt`
-    - `fragment_first.xml`
-    - `SecondFragment.kt`
-    - `fragment_second.xml`
-    - `nav_graph.xml`
-    - and responsive layout files related to the menu bar and floating action button.
+This is one of the most commonly used activity templates in Android development. By default, it
+creates a class and a layout file based on the name you provide when creating the activity.
 
-- Bottom Navigation Activity
-  This activity is similar to Basic Activity, but it has a bottom navigation bar.
-  Generated files:
-    - `BottomNavigationActivity.kt`
-    - `activity_bottom_navigation.xml`
-    - `FirstFragment.kt`
-    - `fragment_first.xml`
-    - `SecondFragment.kt`
-    - `fragment_second.xml`
-    - `ThirdFragment.kt`
-    - `fragment_third.xml`
-    - `nav_graph.xml`
-    - and responsive layout files related to the bottom navigation bar.
+**Generated files:**
 
-- Fragment with View Model Activity
-  This activity is similar to Basic Activity, but it has a fragment with view model.
-  Generated files:
-    - `FragmentWithViewModelActivity.kt`
-    - `activity_fragment_with_view_model.xml`
-    - `FragmentWithViewModelFragment.kt`
-    - `fragment_fragment_with_view_model.xml`
-    - `FragmentWithViewModelViewModel.kt`
+- `EmptyActivity.kt`
+- `activity_empty.xml`
 
-- Fullscreen Activity
-  This activity is similar to Basic Activity, but it has a fullscreen layout.
-  Generated files:
-    - `FullscreenActivity.kt`
-    - `activity_fullscreen.xml`
-    - `attrs.xml`
-    - `styles.xml`
-    - `themes.xml`
-    - `colors.xml`
+### 2. Basic Activity
 
-- Login Activity
-  This activity is similar to Basic Activity, but it has a login layout.
-  Generated files:
-    - `LoginActivity.kt`
-    - `activity_login.xml`
-    - `LoginViewModel.kt`
-    - `LoginViewModelFactory.kt`
-    - `LoginFormState.kt`
-    - `LoginResult.kt`
-    - `LoginDataSource.kt`
-    - `LoginRepository.kt`
+This template is similar to the Empty Activity but includes additional elements like a menu bar and
+a floating action button (FAB).
+
+**Generated files:**
+
+- `BasicActivity.kt`
+- `activity_basic.xml`
+- `FirstFragment.kt`
+- `fragment_first.xml`
+- `SecondFragment.kt`
+- `fragment_second.xml`
+- `nav_graph.xml`
+- Responsive layout files for the menu bar and FAB.
+
+### 3. Bottom Navigation Activity
+
+This activity template extends the Basic Activity by adding a bottom navigation bar for easier
+navigation between fragments.
+
+**Generated files:**
+
+- `BottomNavigationActivity.kt`
+- `activity_bottom_navigation.xml`
+- `FirstFragment.kt`
+- `fragment_first.xml`
+- `SecondFragment.kt`
+- `fragment_second.xml`
+- `ThirdFragment.kt`
+- `fragment_third.xml`
+- `nav_graph.xml`
+- Responsive layout files for the bottom navigation bar.
+
+### 4. Fragment with ViewModel Activity
+
+This template includes a fragment that is paired with a ViewModel, following the MVVM (
+Model-View-ViewModel) architecture pattern.
+
+**Generated files:**
+
+- `FragmentWithViewModelActivity.kt`
+- `activity_fragment_with_view_model.xml`
+- `FragmentWithViewModelFragment.kt`
+- `fragment_fragment_with_view_model.xml`
+- `FragmentWithViewModelViewModel.kt`
+
+### 5. Fullscreen Activity
+
+This template generates an activity with a fullscreen layout, ideal for immersive experiences.
+
+**Generated files:**
+
+- `FullscreenActivity.kt`
+- `activity_fullscreen.xml`
+- `attrs.xml`
+- `styles.xml`
+- `themes.xml`
+- `colors.xml`
+
+### 6. Login Activity
+
+This template generates an activity focused on user authentication, featuring a login form and
+related logic.
+
+**Generated files:**
+
+- `LoginActivity.kt`
+- `activity_login.xml`
+- `LoginViewModel.kt`
+- `LoginViewModelFactory.kt`
+- `LoginFormState.kt`
+- `LoginResult.kt`
+- `LoginDataSource.kt`
+- `LoginRepository.kt`
