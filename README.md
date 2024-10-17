@@ -39,3 +39,23 @@ File name created based on activity template name, for example Empty Activity wi
     - `fragment_third.xml`
     - `nav_graph.xml`
     - and responsive layout files related to the bottom navigation bar.
+
+- Fragment with View Model Activity
+  This activity is similar to Basic Activity, but it has a fragment with view model.
+  Generated files:
+    - `FragmentWithViewModelActivity.kt`
+    - `activity_fragment_with_view_model.xml`
+    - `FragmentWithViewModelFragment.kt`
+    - `fragment_fragment_with_view_model.xml`
+    - `FragmentWithViewModelViewModel.kt`
+
+- Fullscreen Activity
+  This activity is similar to Basic Activity, but it has a fullscreen layout.
+  Generated files:
+    - `FullscreenActivity.kt`
+    - `activity_fullscreen.xml`
+    - `attrs.xml`
+    - `styles.xml`
+    - `themes.xml`
+    - `colors.xml`
+
